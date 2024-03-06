@@ -1,0 +1,51 @@
+body {
+    display: grid;
+    grid-template-columns: auto 70% auto;
+    grid-template-rows: auto 80% auto;
+    gap: 20px;
+    margin: 0px;
+    background-color: #000000;
+}
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    text-align: center;
+    display: flex;
+
+}
+
+#Home {
+    margin: 0px auto auto auto;
+
+}
+
+#AboutMe {
+    margin: 0px auto;
+}
+
+#Skills {
+    margin: 0px auto;
+}
+
+#Projecten {
+    margin: 0px auto;
+}
+
+#navbar a {
+    color: aliceblue;
+    font-size: 400%;
+    font-family: "Madimi One";
+    text-decoration: none;
+    list-style: none;
+}
+
+#navbar a :active {
+    color: aqua;
+}
