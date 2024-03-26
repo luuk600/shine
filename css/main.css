@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: auto 70% auto;
+    grid-template-columns: 18% 60% auto;
     grid-template-rows: auto 80% auto;
     gap: 20px;
     margin: 0px;
@@ -21,31 +21,63 @@ body {
 
 }
 
+#Sintlucas {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    text-align: center;
+    margin: 30px auto auto 20%;
+
+}
+
 #Home {
-    margin: 0px auto auto auto;
+    margin: 10px auto auto auto;
 
 }
 
 #AboutMe {
-    margin: 0px auto;
+    margin: 10px auto;
 }
 
 #Skills {
-    margin: 0px auto;
+    margin: 10px auto;
 }
 
 #Projecten {
-    margin: 0px auto;
+    margin: 10px auto;
 }
 
-#navbar a {
+#Namenav {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    text-align: center;
+    display: flex;
+    margin: 10px 20px;
+}
+
+#Namenav a {
     color: aliceblue;
-    font-size: 400%;
+    font-size: 250%;
     font-family: "Madimi One";
     text-decoration: none;
     list-style: none;
 }
 
-#navbar a :active {
+#navbar a {
+    color: aliceblue;
+    font-size: 250%;
+    font-family: "Madimi One";
+    text-decoration: none;
+    list-style: none;
+}
+
+#navbar :active {
+    color: aqua;
+}
+
+#navbar :hover {
+    color: aqua;
+}
+
+#Active a {
     color: aqua;
 }
