@@ -81,3 +81,21 @@ body {
 #Active a {
     color: aqua;
 }
+
+.text {
+    margin: 15% auto auto auto;
+
+    color: aliceblue;
+    font-size: 600%;
+    font-family: "Madimi One";
+    text-align: center;
+}
+
+#nametext {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#mywebsite {
+    margin: top -20%
+}
