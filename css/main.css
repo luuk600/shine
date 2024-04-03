@@ -99,3 +99,13 @@ body {
 #mywebsite {
     margin: top -20%
 }
+
+/* About me */
+
+#imgofme {
+    grid-column: 1;
+    grid-row: 2;
+    margin: auto 30px auto auto;
+    width: 300px;
+
+}
