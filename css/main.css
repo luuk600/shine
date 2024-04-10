@@ -107,5 +107,33 @@ body {
     grid-row: 2;
     margin: auto 30px auto auto;
     width: 300px;
+}
 
+#textaboutme{
+    /* float: right; */
+    margin: -400px auto auto 110%;
+    /* grid-column: 2; */
+    /* grid-row: 2; */
+    width: 80vw;
+    color: aliceblue;
+    font-size: 200%;
+    font-family: "Madimi One";
+    text-align: center
+}
+
+#tennis {
+    margin: 10px 30px auto 10px;
+
+}
+
+#djockovic{
+    margin:  -40vh auto auto 400px;
+
+}
+
+#htmlfoto{
+    margin: -40vh auto auto 1300px;
+}
+.pic{
+    margin: -30vh auto auto 1100px;
 }
