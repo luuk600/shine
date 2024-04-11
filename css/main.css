@@ -182,3 +182,28 @@ body {
     font-size: 400%;
     font-family: "Madimi One";
 }
+
+#projectstext p {
+    color: aliceblue;
+    font-size: 160%;
+    font-family: "Madimi One";
+}
+
+#picgithub {
+    margin-left: 1050px;
+}
+
+#myfirsthtml {
+    margin-top: -200px;
+    margin-left: 1200px;
+}
+
+#webclickpic {
+    margin-top: -200px;
+    margin-left: 1000px;
+}
+
+#pongpic {
+    margin-top: -200px;
+    margin-left: 1000px;
+}
