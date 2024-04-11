@@ -51,7 +51,7 @@ body {
     grid-row-start: 1;
     text-align: center;
     display: flex;
-    margin: 10px 20px;
+    margin: 20px 40px;
 }
 
 #Namenav a {
@@ -109,7 +109,7 @@ body {
     width: 300px;
 }
 
-#textaboutme{
+#textaboutme {
     /* float: right; */
     margin: -400px auto auto 110%;
     /* grid-column: 2; */
@@ -123,17 +123,44 @@ body {
 
 #tennis {
     margin: 10px 30px auto 10px;
-
 }
 
-#djockovic{
-    margin:  -40vh auto auto 400px;
-
+#djockovic {
+    margin: -20vh auto auto 400px;
 }
 
-#htmlfoto{
-    margin: -40vh auto auto 1300px;
+#htmlfoto {
+    margin: -30vh auto auto 1300px;
 }
-.pic{
-    margin: -30vh auto auto 1100px;
+
+.pic {
+    margin: -20vh auto auto 1100px;
+}
+
+#Skillslist {
+    margin-left: 50px;
+    grid-column: 1;
+    grid-row: 2;
+    color: aliceblue;
+    font-size: 200%;
+    font-family: "Madimi One";
+}
+
+#skillstext {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+
+#skillstext h1 {
+    color: aliceblue;
+    font-size: 400%;
+    font-family: "Madimi One";
+}
+
+#skillstext p {
+    color: aliceblue;
+    font-size: 160%;
+    font-family: "Madimi One";
 }
