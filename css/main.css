@@ -138,6 +138,7 @@ body {
 }
 
 #Skillslist {
+    margin-top: -150px;
     margin-left: 50px;
     grid-column: 1;
     grid-row: 2;
@@ -147,6 +148,7 @@ body {
 }
 
 #skillstext {
+    margin-top: -150px;
     grid-column: 2;
     grid-row: 2;
     margin-left: 100px;
@@ -162,5 +164,21 @@ body {
 #skillstext p {
     color: aliceblue;
     font-size: 160%;
+    font-family: "Madimi One";
+}
+
+#joffevanderheijdentennis {
+    margin-left: 150px;
+    margin-top: -120px;
+}
+
+#projectstext {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#projectstext h1 {
+    color: aliceblue;
+    font-size: 400%;
     font-family: "Madimi One";
 }
